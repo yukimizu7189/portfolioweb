@@ -1,0 +1,20 @@
+volumes:
+  hoge:
+services:
+  web:
+      build:
+        context: .
+        dockerfile: Dockerfile
+
+      ports:
+        - "3000:3000"
+
+      volumes:
+        - .:/app
+        - hoge:/app/node_modules
+
+      environment:
+        - CHOKIDAR_USEPOLLING=true
+
+      stdin_open: true
+      tty: true
