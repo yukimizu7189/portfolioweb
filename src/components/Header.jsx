@@ -5,7 +5,13 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <header>
-      <div className='logo'>
+       <nav className="w-full bg-red-200">
+        <div className="flex justify-between bg-blue-200 max-w-5xl mx-auto">
+          <div className="bg-yellow-200">Logo</div>
+          <div className="bg-indigo-200">Menu</div>
+        </div>
+      </nav>
+      {/* <div className='logo'>
         <h3>yukimizu</h3>
       </div>
 
@@ -27,7 +33,7 @@ const Header = () => {
             <Link to="/blog">Blog</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   )
 }
