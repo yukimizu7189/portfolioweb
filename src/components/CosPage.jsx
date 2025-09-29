@@ -5,7 +5,7 @@ const CosPage = () => {
     <div class="container mb-auto p-4">
       <div class="row">
         <div>
-          <h1 class="text-center">工事中</h1>
+          <h1 class="text-center">cos工事中</h1>
         </div>        
       </div>
     </div>

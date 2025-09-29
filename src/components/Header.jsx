@@ -36,7 +36,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className={`${isOpen ? 'block' : 'hidden'} lg:flex lg:items-center`}>
+          <div className={`${isOpen ? 'block' : 'hidden'} lg:flex `}>
             <div className="flex flex-col lg:flex-row lg:mx-6 text-xl font-bold">
               <Link to="/" className="block px-4 py-2 mt-2 text-xl text-white capitalize lg:mt-0">Home</Link>
               <Link to="/works" className="block px-4 py-2 mt-2 text-xl text-white capitalize lg:mt-0">Works</Link>
