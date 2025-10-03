@@ -10,7 +10,7 @@ const HomePage = () => {
             <img className="object-contain object-center rounded w-48 h-auto" src="illust.png" alt='yukimizu_logo'></img>
             <div className="text-center lg:w-2/3 w-auto px-5">
               <h1 className="text-5xl mb-4 font-bold text-gray-900">yukimizu</h1>
-              <p className="mb-8 leading-relaxed">photo / video / coding (amateur) / cosplay</p>
+              <p className="mb-8 leading-relaxed">ゆきみず</p>
               <div className="flex justify-center">
                 <Link to="/works" className="no-underline m-2 inline-flex text-white bg-gray-950 border-0 py-2 px-6 hover:bg-gray-700 rounded text-lg">find out more</Link>
               </div>
@@ -21,7 +21,7 @@ const HomePage = () => {
           <div className='flex text-center flex-col justify-center py-10 bg-black'>
             <h1 className="text-5xl mb-5 font-bold text-white">About</h1>
             <div className='text-lg text-left mx-auto px-5 pb-5 text-white leading-relaxed'>
-              映像制作, 写真撮影, コスプレなど多趣味にいろいろやっている学生<br></br>
+              映像制作, 写真撮影, コスプレ, アマチュア無線など多趣味にいろいろやっている学生<br></br>
               最近は情シスにも手を出し始めた<br></br>
               イベント好きで, 主に同人誌即売会を中心にライブやフリマに参加している
               
@@ -33,10 +33,35 @@ const HomePage = () => {
         </div>
         <div className="container mx-auto px-5 pb-5">
           <div className='flex text-center flex-col justify-center py-5'>
+            <h1 className="text-5xl mb-5 font-bold text-black">Interests</h1>
+          </div>
+          <div className='flex flex-col grid lg:flex-row lg:grid-cols-3 justify-center'>
+            <div className='max-w-sm m-3 border border-gray-200 rounded-lg shadow-sm bg-gray-800'>
+              <div className='p-5'>
+                <p className="text-2xl mb-2 font-bold text-white">Photo</p>
+                <p className="text-lg mb-2 text-gray-300">Nikon D610を用いて、主にポートレート・コスプレ撮影を行っています。GODOXストロボを3点所有。</p>
+              </div>
+            </div>
+            <div className='max-w-sm m-3 border border-gray-200 rounded-lg shadow-sm bg-gray-800'>
+              <div className='p-5'>
+                <p className="text-2xl mb-2 font-bold text-white">Video</p>
+                <p className="text-lg mb-2 text-gray-300">AviUtlをメインに、MVを中心に映像制作を行っています。</p>
+              </div>
+            </div>
+            <div className='max-w-sm m-3 border border-gray-200 rounded-lg shadow-sm bg-gray-800'>
+              <div className='p-5'>
+                <p className="text-2xl mb-2 font-bold text-white">Develop</p>
+                <p className="text-lg mb-2 text-gray-300">HTML、JS、React、Ruby、C、C++、Pythonあたりを勉強中です。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div className="container mx-auto px-5 pb-5">
+          <div className='flex text-center flex-col justify-center py-5'>
             <h1 className="text-5xl mb-5 font-bold text-black">Links</h1>
           </div>
           <div className='flex flex-col grid lg:flex-row lg:grid-cols-4 pb-20 justify-center'>
-            <div className='mb-10 mx-1'>
+            <div className='mb-10 mx-1 text-center'>
               <p className="text-3xl mb-2 font-bold text-gray-900">X (Twitter)</p> 
                 <a href="https://x.com/yukimizu7189" target="_blank" rel="noreferrer" className="no-underline inline-flex items-center text-white bg-gray-900 border-0 py-2 px-4 mb-2 mx-2 hover:bg-gray-700 rounded">
                   <div className='text-sm text-left'>
@@ -51,7 +76,7 @@ const HomePage = () => {
                   </div>
                 </a>
             </div>
-            <div className='mb-10 mx-1'>
+            <div className='mb-10 mx-1 text-center'>
               <p className="text-3xl mb-2 font-bold text-gray-900">Github</p> 
                 <a href="https://github.com/yukimizu7189" target="_blank" rel="noreferrer" className="no-underline inline-flex items-center text-white bg-gray-900 border-0 py-2 px-4 mb-2 hover:bg-gray-700 rounded">
                   <div className='text-sm text-left'>
@@ -60,7 +85,7 @@ const HomePage = () => {
                   </div>
                 </a>
             </div>
-            <div className='mb-10 mx-1'>
+            <div className='mb-10 mx-1 text-center'>
               <p className="text-3xl mb-2 font-bold text-gray-900">Discord</p> 
                 <a href="https://discord.gg/gBy7krwY" target="_blank" rel="noreferrer" className="no-underline inline-flex items-center text-white bg-blue-700 border-0 py-2 px-4 mb-2 hover:bg-blue-400 rounded">
                   <div className='text-sm text-left'>
@@ -69,22 +94,28 @@ const HomePage = () => {
                   </div>
                 </a>
             </div>
-            <div className='mb-10 mx-1'>
+            <div className='mb-10 mx-1 text-center'>
               <p className="text-3xl mb-2 font-bold text-gray-900">Contact</p> 
-                <a href="mailto:yukimizu@yukidokemizu.com" target="_blank" rel="noreferrer" className="no-underline inline-flex items-center text-white bg-emerald-500 border-0 py-2 px-4 mb-2 hover:bg-emerald-600 rounded">
+                <div className="no-underline inline-flex items-center text-white bg-emerald-500 border-0 py-2 px-4 mb-2 hover:bg-emerald-600 rounded">
                   <div className='text-sm text-left'>
                     <span className='block text-sm'>E-mail</span>
                     <span className='block text-lg'>yukimizu@yukidokemizu.com</span>
                   </div>
-                </a>
+                </div>
             </div>
           </div>
-          <div className='flex justify-around'>
+          <div className='flex flex-col grid lg:flex-row lg:grid-cols-4 pb-20 justify-center'> 
             <a href="http://www.comiket.co.jp/" target="_blank" rel="noreferrer">
-              <img src="http://www.comiket.co.jp/images/comiket_banner00.gif" width="200" height="40" alt="コミックマーケット公式サイト"></img>
+              <img src="http://www.comiket.co.jp/images/comiket_banner00.gif" width="200" height="40" alt="コミックマーケット公式サイト" className='mx-auto mb-4'></img>
+            </a>
+            <a href="https://portal.circle.ms/" target="_blank" rel="noreferrer">
+              <img src="https://emeraldportal.blob.core.windows.net/bunner/portalBN_200_40.png" className='mx-auto mb-4' width = "200" height = "40" alt="Circle.ms"></img>
             </a>
             <a href="https://love.tsukuba-ac.net/" target="_blank" rel="noreferrer">
-              <img src="tsukuba-love1.png" width = "200" height = "40" alt="つくば大好き連合"></img>
+              <img src="tsukuba-love1.png" className='mx-auto mb-4' width = "200" height = "40" alt="つくば大好き連合"></img>
+            </a>
+            <a href="https://www.city.tsukuba.lg.jp/index.html" target="_blank" rel="noreferrer">
+              <img src="https://www.city.tsukuba.lg.jp/material/files/group/3/tsukuba_banner_234_60.jpg" className='mx-auto mb-4' width = "200" height = "40" alt="つくば市"></img>
             </a>
           </div>
           
