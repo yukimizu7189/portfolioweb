@@ -7,7 +7,7 @@ const HomePage = () => {
       <section className="text-gray-600">
         <div className="container mx-auto px-5 pt-24 pb-12">
           <div className='md:flex-row flex flex-col items-center justify-center pb-10'>
-            <img className="object-contain object-center rounded w-48 h-auto" src="logologo.jpg" alt='yukimizu_logo'></img>
+            <img className="object-contain object-center rounded w-48 h-auto" src="illust.png" alt='yukimizu_logo'></img>
             <div className="text-center lg:w-2/3 w-auto px-5">
               <h1 className="text-5xl mb-4 font-bold text-gray-900">yukimizu</h1>
               <p className="mb-8 leading-relaxed">photo / video / coding (amateur) / cosplay</p>
@@ -71,7 +71,7 @@ const HomePage = () => {
             </div>
             <div className='mb-10 mx-1'>
               <p className="text-3xl mb-2 font-bold text-gray-900">Contact</p> 
-                <a href="https://discord.gg/gBy7krwY" target="_blank" rel="noreferrer" className="no-underline inline-flex items-center text-white bg-emerald-500 border-0 py-2 px-4 mb-2 hover:bg-emerald-600 rounded">
+                <a href="mailto:yukimizu@yukidokemizu.com" target="_blank" rel="noreferrer" className="no-underline inline-flex items-center text-white bg-emerald-500 border-0 py-2 px-4 mb-2 hover:bg-emerald-600 rounded">
                   <div className='text-sm text-left'>
                     <span className='block text-sm'>E-mail</span>
                     <span className='block text-lg'>yukimizu@yukidokemizu.com</span>
