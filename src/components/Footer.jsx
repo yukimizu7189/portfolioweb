@@ -2,12 +2,12 @@ import React from 'react'
 
 const footer = () => {
   return (
-    <div class='position-relative'>
-      <footer class="position-fixed bottom-0 left-0">
+    <div>
+      <footer class="bottom-0 left-0">
         <div class="container mt-5">
           <div class='row'>
             <div>
-              <p>Contributed by yukimizu</p>
+              <p>Contributed by yukimizu. 2025</p>
             </div>
           </div>
         </div>
