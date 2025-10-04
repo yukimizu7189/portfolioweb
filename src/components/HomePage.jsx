@@ -123,7 +123,7 @@ const HomePage = () => {
             </div>
           </FadeInUp>
           <FadeInUp>
-            <div className='flex flex-col grid lg:flex-row lg:grid-cols-4 pb-20 justify-center'> 
+            <div className='flex flex-col grid lg:flex-row lg:grid-cols-5 pb-20 justify-center'> 
               <a href="http://www.comiket.co.jp/" target="_blank" rel="noreferrer">
                 <img src="http://www.comiket.co.jp/images/comiket_banner00.gif" width="200" height="40" alt="コミックマーケット公式サイト" className='mx-auto mb-4'></img>
               </a>
@@ -135,6 +135,9 @@ const HomePage = () => {
               </a>
               <a href="https://www.city.tsukuba.lg.jp/index.html" target="_blank" rel="noreferrer">
                 <img src="https://www.city.tsukuba.lg.jp/material/files/group/3/tsukuba_banner_234_60.jpg" className='mx-auto mb-4' width = "200" height = "40" alt="つくば市"></img>
+              </a>
+              <a href="https://sites.google.com/view/happy-busy/" target="_blank" rel="noreferrer">
+                <img src="unnamed.png" className='mx-auto mb-4' width = "200" height = "40" alt="時間のないサイト運営者リング"></img>
               </a>
             </div>
           </FadeInUp>
