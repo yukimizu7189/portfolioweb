@@ -1,4 +1,6 @@
 import React from 'react'
+import FadeInUp from '../animation/fade'
+import "../animation/animation.css"
 
 const UnivPage = () => {
   return (
