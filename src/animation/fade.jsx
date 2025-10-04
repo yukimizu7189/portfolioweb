@@ -7,6 +7,9 @@ const FadeInUp = ({ children }) => {
   const targetRef = useRef(null);
 
   useEffect(() => {
+
+    const currentElement = targetRef.current;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -20,13 +23,13 @@ const FadeInUp = ({ children }) => {
       }
     );
     
-    if (targetRef.current) {
-      observer.observe(targetRef.current);
+    if (currentElement) {
+      observer.observe(currentElement);
     }
 
     return () => {
-      if (targetRef.current) {
-        observer.unobserve(targetRef.current);
+      if (currentElement) {
+        observer.unobserve(currentElement);
       }
     };
   }, []);
