@@ -7,13 +7,14 @@ import HomePage from "./components/HomePage";
 import WorksPage from "./components/WorksPage";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import ScrollToTop from "./animation/ScrollTop";
 
 function App() {
   return (
     <Router>
       <div className='App'>
         <Header />
-        
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/works" element={<WorksPage />} />

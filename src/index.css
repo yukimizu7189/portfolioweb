@@ -21,3 +21,11 @@ code {
 .block {
   text-decoration: none;
 }
+
+.bg {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  height: 50vw;
+}

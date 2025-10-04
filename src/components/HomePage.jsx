@@ -6,16 +6,16 @@ import "../animation/animation.css"
 const HomePage = () => {
   return (
     <div>
-      <section className="text-gray-600">
-        <div className="container mx-auto px-5 pt-24 pb-12">
+      <section className="text-white">
+        <div className="container-flex bg-[url('./images/background.jpg')] min-h-[90vh] bg-no-repeat bg-cover mx-auto px-5 pt-36">
           <FadeInUp>
-            <div className='md:flex-row flex flex-col items-center justify-center pb-10'>
+            <div className='md:flex-row flex flex-col items-center justify-center '>
               <img className="object-contain object-center rounded w-48 h-auto" src="illust.png" alt='yukimizu_logo'></img>
               <div className="text-center lg:w-2/3 w-auto px-5">
-                <h1 className="text-5xl mb-4 font-bold text-gray-900">yukimizu</h1>
+                <h1 className="text-5xl mb-4 font-bold text-white">yukimizu</h1>
                 <p className="mb-8 leading-relaxed">ゆきみず</p>
                 <div className="flex justify-center">
-                  <Link to="/works" className="no-underline m-2 inline-flex text-white bg-gray-950 border-0 py-2 px-6 hover:bg-gray-700 rounded text-lg">find out more</Link>
+                  <Link to="/works" className="no-underline m-2 inline-flex text-gray-900 bg-gray-100 shadow-lg border-0 py-2 px-6 hover:bg-gray-300 rounded text-lg">find out more</Link>
                 </div>
               </div>
             </div>
@@ -123,13 +123,7 @@ const HomePage = () => {
             </div>
           </FadeInUp>
           <FadeInUp>
-            <div className='flex flex-col grid lg:flex-row lg:grid-cols-5 pb-20 justify-center'> 
-              <a href="http://www.comiket.co.jp/" target="_blank" rel="noreferrer">
-                <img src="http://www.comiket.co.jp/images/comiket_banner00.gif" width="200" height="40" alt="コミックマーケット公式サイト" className='mx-auto mb-4'></img>
-              </a>
-              <a href="https://portal.circle.ms/" target="_blank" rel="noreferrer">
-                <img src="https://emeraldportal.blob.core.windows.net/bunner/portalBN_200_40.png" className='mx-auto mb-4' width = "200" height = "40" alt="Circle.ms"></img>
-              </a>
+            <div className='flex flex-col grid lg:flex-row lg:grid-cols-3 pb-20 justify-center'> 
               <a href="https://love.tsukuba-ac.net/" target="_blank" rel="noreferrer">
                 <img src="tsukuba-love1.png" className='mx-auto mb-4' width = "200" height = "40" alt="つくば大好き連合"></img>
               </a>
@@ -138,6 +132,15 @@ const HomePage = () => {
               </a>
               <a href="https://sites.google.com/view/happy-busy/" target="_blank" rel="noreferrer">
                 <img src="unnamed.png" className='mx-auto mb-4' width = "200" height = "40" alt="時間のないサイト運営者リング"></img>
+              </a>
+              <a href="http://www.comiket.co.jp/" target="_blank" rel="noreferrer">
+                <img src="http://www.comiket.co.jp/images/comiket_banner00.gif" width="200" height="40" alt="コミックマーケット公式サイト" className='mx-auto mb-4'></img>
+              </a>
+              <a href="https://portal.circle.ms/" target="_blank" rel="noreferrer">
+                <img src="https://emeraldportal.blob.core.windows.net/bunner/portalBN_200_40.png" className='mx-auto mb-4' width = "200" height = "40" alt="Circle.ms"></img>
+              </a>
+              <a href="https://www.comic1.jp/" target="_blank" rel="noreferrer">
+                <img src="comic1_bnr_l_01.gif" className='mx-auto mb-4' width = "200" height = "40" alt="comic1"></img>
               </a>
             </div>
           </FadeInUp>
